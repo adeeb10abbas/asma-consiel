@@ -2,7 +2,7 @@
 <html>
 
     <head>
-        <a href="http://free-website-translation.com/" id="ftwtranslation_button" hreflang="fr" title="" style="border:0;"><img src="http://free-website-translation.com/img/fwt_button_en.gif" id="ftwtranslation_image" alt="website translator plugin" style="border:0;"/></a> <script type="text/javascript" src="http://free-website-translation.com/scripts/fwt.js" /></script>
+        
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -62,15 +62,31 @@
                     </video>
                 </div>        
 
+                <div class="btn-container">
+                    <div class="row buttons">
+                        <a href="#" class="col-md-6">
+
+                            <button onclick="">ENG</button>
+
+                        </a>
+
+                        <a href="#" class="col-md-6">
+
+                            <button onclick="">FR</button>
+
+                        </a>
+                    </div>
+                </div>
+                
                 <div id="header" class="row">
 
-                    <div class="scale-up-center col-md-6" id="circle-logo">
+                    <div class="scale-up-center col-md-5" id="circle-logo">
                         <img id="logo" src="footage/logo.png">
                     </div>
                     
-                    <div id="header-text" class="col-md-6 slide-in-elliptic-top-fwd">
-                        <p>Chef d’entreprise,<br> nous sommes à vos côtés!</p>
-                        <h1>Asma Audit & Conseil</h1>
+                    <div id="header-text" class="col-md-7 slide-in-elliptic-top-fwd">
+                        <h1>Chef d’entreprise, si vous avez des rêves,<br> il est de votre responsabilité de les réaliser</h1>
+                        <p>Asma Audit & Conseil vous assiste dans cette démarche</p>
                     </div>
                     
                 </div>
@@ -92,15 +108,11 @@
             
                 <div id="text">
                     <h2>LE CABINET</h2>
-                    <p>Asma Audit & Conseil a pour vocation d'assister les PME/PMI et TPE dans la gestion quotidienne des tâches administratives et financières et dans leurs stratégies de croissance. Nous accompagnons également les grandes entreprises dans le cadre de migrations de systèmes comptables, d'optimisation et de réorganisation des services financiers.</p>
-                    <div class="wow fadeIn" data-wow-duration="3s" id="emph">
-                        <p>Le cabinet Asma Audit & Conseil est avant tout une équipe de comptables et d’auditeurs professionnels, dynamique, réactive, et proche de ses clients.</p>
-                    </div>    
+                    <p class="wow fadeInLeft">Implanté en plein cœur de Dakar, le cabinet Asma Audit & conseil est un cabinet d’expertise-comptable pluridisciplinaire, intervenant auprès d’un grand nombre de sociétés dans les domaines de la comptabilité, du conseil, et de l’audit.</p>
+                    <p class="wow fadeInRight">Asma Audit & Conseil a pour vocation d'assister les PME/PMI et TPE dans la gestion quotidienne des tâches administratives et financières et dans leurs stratégies de croissance. Nous accompagnons également les grandes entreprises dans le cadre de migrations de systèmes comptables, d'optimisation et de réorganisation des services financiers et dans la mise en place d’outils de pilotage utiles à une bonne gestion de leur entreprise.</p>  
                 </div>
             
             </center>
-                
-            <img class="wow fadeInRight" data-wow-delay="1s" data-wow-duration="1s" src="footage/view.jpg">
                 
         </section>
     
@@ -166,51 +178,6 @@
                 
             </center>
         
-        
-        </section>
-        
-        <section id="experience">
-            <center>
-                <h2>Expériences des associés</h2>
-                <div class="testimonial-container">
-                    <div class="dk-container">
-                        <div class="cd-testimonials-wrapper cd-container">
-                            <ul class="cd-testimonials">
-                                <li>
-                                    <div class="testimonial-content">
-                                        <p><span>Industries Extractives</span> - Grande Côte Opération, Gécamines, Sabodala Gold Opérations, Miferso, Gadd Bissik Opération, Somiva, Sabadola Mining Company </p>
-                                        <p><span>Distribution de produits Pétroliers</span> - Total, Elton Bissau, Société Africaine de Raffinage </p>
-                                        <p><span>Télécommunication</span> - Sentel, Groupe Sonate  </p>
-                                        <p><span>Bâtiment Travaux Publics</span> - Consortium d’Entreprises </p>
-                                        <p><span>Media</span> - AA Access partnership</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="testimonial-content">
-                                        <p><span>Banques et services financiers</span> - BCEAO, Banque Centrale d’Haïti, Saham Assurances, Wafa Assurances</p>
-                                        <p><span>Concession Publique</span> - EIFFAGE</p>
-                                        <p><span>Hôtellerie</span> - Radisson Blu, Novotel, Pullman, Club Med</p>
-                                        <p><span>Agriculture</span> - Grand Domaine du Sénégal</p>
-                                        <p><span>Esthétique</span> - Little Buddha SPA</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="testimonial-content">
-                                        <p><span>Mobile Banking</span> - Orange Money, Tigo Cash, Wari</p>
-                                        <p><span>Restauration</span> - Little Buddha Bar</p>
-                                        <p><span>Projet de développement</span> - Aide et Action, Millenium Challenge Account Sénégal</p>
-                                        <p><span>Gestion de patrimoine</span> - SIGHC</p>
-                                        <p><span>Santé</span> - Pharmaciens indépendants</p>
-                                        <p><span>Conseil</span> - Architectes indépendants</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- cd-testimonials -->
-                    </div>
-                </div>
-
-            </center>
         
         </section>
         
@@ -280,6 +247,7 @@
             });
             function myFunction() {
                 $('#blurry').toggleClass("bluraway");
+                $('html').toggleClass("overflow");
                 $('#introduction').toggleClass("bluraway");
                 $('#services').toggleClass("bluraway");
                 $('#experience').toggleClass("bluraway");

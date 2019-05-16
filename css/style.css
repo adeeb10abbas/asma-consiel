@@ -89,16 +89,16 @@ h1 {
 }
 
 #accueil #header h1 {
-    font-family: 'Chivo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 35px !important;
     
     margin-top: 10%;
 }
 
 #accueil #header p {
-    font-family: 'Chivo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 28px;
 }
@@ -253,7 +253,7 @@ nav .nav-wrap .menu-bg {
   z-index: -1;
 }
 nav .nav-wrap .menu-bg a {
-    font-family: 'Chivo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 25px;
     font-weight: bold;
@@ -339,8 +339,8 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 #introduction #text h2 {
     text-align: center;
-    font-family: 'Chivo', sans-serif;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 35px;
     
     margin-bottom: 30px;
@@ -348,7 +348,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 #introduction #text p {
     text-align: left;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 
@@ -363,8 +363,8 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #services #head h2 {
-    font-family: 'Chivo', sans-serif;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 35px;
     
     margin-bottom: 50px;
@@ -383,7 +383,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #services #head p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 #services .cards {
@@ -449,13 +449,13 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     padding-top: 15px;
     
     font-size: 22px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 #services .card p {
     width: 90%;
     
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 14px;
 }
 
@@ -590,13 +590,13 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 .testimonial-content p {
 	padding: 0 14px;
     
-    font-family: 'Chivo', sans-serif !important;
+    font-family: 'Montserrat', sans-serif !important;
     font-size: 17px !important;
 }
 
 .testimonial-content p span {
     color: white;
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 @media only screen and (min-width: 768px) {
@@ -780,7 +780,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     background-color: #465FFF;
     
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .footer-img {
@@ -869,14 +869,14 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 #side-accueil h1 {
     color: white;
-    font-family: 'Chivo', sans-serif;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     padding: 150px 70px 0 0 ;
 }
 
 #side-accueil p {
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     
     padding-left: 150px;
     width: 80%;
@@ -889,7 +889,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     font-size: 40px;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .side-testimonial i {
@@ -967,7 +967,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 #services-list a {
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
 
     color: #FF7500;
@@ -998,8 +998,8 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #comptable h2 {
-    font-family: 'Chivo', sans-serif;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 35px;
     
     margin-bottom: 30px;
@@ -1007,14 +1007,14 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #comptable p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     width: 80%;
     margin-bottom: 50px;
 }
 
 #comptable h3 {
-    font-family: 'Chivo', sans-serif;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 32px;
     
 }
@@ -1037,7 +1037,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #comptable-details h4 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -1082,8 +1082,8 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #aide h2 {
-    font-family: 'Chivo', sans-serif;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 35px;
     
     margin-bottom: 30px;
@@ -1091,7 +1091,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #aide p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     width: 80%;
     margin-bottom: 50px;
 }
@@ -1172,8 +1172,8 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #audit h2 {
-    font-family: 'Chivo', sans-serif;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 35px;
     
     margin-bottom: 30px;
@@ -1185,7 +1185,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #audit p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     width: 70%;
     margin-bottom: 50px;
 }
@@ -1250,15 +1250,15 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #conseil h2 {
-    font-family: 'Chivo', sans-serif;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 35px;
     
     margin-bottom: 40px;
 }
 
 #conseil p {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     width: 70%;
     margin-bottom: 50px;
     font-size: 18px;
@@ -1337,13 +1337,13 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 #contact-accueil h1 {
     color: white;
-    font-family: 'Chivo', sans-serif;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 #contact-accueil p {
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .contact-row a {
@@ -1419,8 +1419,8 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     float: left;
     margin-top: 22%;
     font-size: 90px !important;
-    font-family: 'Chivo', sans-serif;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 
@@ -1451,29 +1451,29 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 #first-summary h2 {
     text-align: left;
     color: white;
-    font-family: 'Chivo', sans-serif;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 30px !important;
 }
 
 #second-summary h2 {
     text-align: right;
     color: white;
-    font-family: 'Chivo', sans-serif;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 20px !important;
 }
 
 #first-summary p {
     color: white;
     text-align: left;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 #second-summary p {
     color: white;
     text-align: right;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 12px;
 }
 
@@ -1544,13 +1544,13 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 #first-summary .details {
     font-size: 11px !important;
-    font-family: 'Chivo', sans-serif !important;
+    font-family: 'Montserrat', sans-serif !important;
     margin-top: -10px;
 }
 
 #second-summary .details {
     font-size: 9px !important;
-    font-family: 'Chivo', sans-serif !important;
+    font-family: 'Montserrat', sans-serif !important;
     margin-top: -10px;
 }
 
@@ -1617,15 +1617,15 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 #third-summary h2 {
     text-align: center;
     color: white;
-    font-family: 'Chivo', sans-serif;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 20px !important;
 }
 
 #third-summary p {
     color: white;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 12px;
 }
 
@@ -1637,7 +1637,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 #third-summary .details {
     font-size: 9px !important;
-    font-family: 'Chivo', sans-serif !important;
+    font-family: 'Montserrat', sans-serif !important;
     margin-top: -10px;
 }
 
@@ -1658,7 +1658,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 #derniers-articles h3 {
     text-transform: uppercase;
-    font-family: 'Chivo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 27px;
     margin-bottom: 100px;
 }
@@ -1672,8 +1672,8 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 .article h1 {
     padding-top: 50px;
-    font-family: 'Chivo', sans-serif;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 .article .add-info {
@@ -1684,19 +1684,19 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 .article .hashtags {
     text-align: left;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 15px;
 }
 
 .article .time {
     text-align: right;
     font-size: 15px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .article-summary {
     margin-top: 30px;
-    font-family: 'Chivo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .article .more {
@@ -1704,8 +1704,8 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     
     text-decoration: none;
     color: #666;
-    font-family: 'Chivo', sans-serif;
-    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     margin: 30px auto;
     background-color: #f5f5f5;
     border: 1px solid #aaa;

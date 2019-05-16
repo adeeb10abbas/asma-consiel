@@ -65,9 +65,9 @@ h1 {
     position: absolute;
     
     background: #ffffff;
-    background: -moz-linear-gradient(top, transparent 0%, #609693 80%);
-    background: -webkit-linear-gradient(top, transparent 0%, #609693 80%);
-    background: linear-gradient(to bottom, transparent 0%, #609693 80%);
+    background: -moz-linear-gradient(top, transparent 0%, #465FFF 80%);
+    background: -webkit-linear-gradient(top, transparent 0%, #465FFF 80%);
+    background: linear-gradient(to bottom, transparent 0%, #465FFF 80%);
 }
 
 #fullscreen-bg {
@@ -652,7 +652,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 .flex-direction-nav .flex-prev {
 	left: 0px;
-    background-color: #407471;
+    background-color: #384ccc;
     color: transparent;
 }
 
@@ -663,7 +663,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 .flex-direction-nav .flex-next {
 	right: 0px;
 	text-align: right;
-    background-color: #407471;
+    background-color: #384ccc;
     color: transparent;
 }
 
@@ -777,7 +777,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 
 .footer .content {
-    background-color: #609693;
+    background-color: #465FFF;
     
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -836,7 +836,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 .footer .darker-bg {
-    background-color: #407471;
+    background-color: #384ccc;
 }
 
 .footer p {
@@ -854,7 +854,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #blue {
-    background-color: #609693;
+    background-color: #465FFF;
     height: 100px;
 }
 
@@ -893,7 +893,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 .side-testimonial i {
-    color: #609693;
+    color: #465FFF;
     font-size: 12px;
 }
 
@@ -917,7 +917,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 #cabinet-sections .in-menu h3 {
     transition: .5s;
-    background-color: #609693;
+    background-color: #465FFF;
     height: 200px;
     
     color: white;
@@ -926,7 +926,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 #cabinet-sections .in-menu h3:hover {
     transition: .5s;
-    background-color: #407471;
+    background-color: #384ccc;
 }
 
 
@@ -1304,7 +1304,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #solutions-list li {
-    background-color: #609693;
+    background-color: #465FFF;
     margin-bottom: 10px;
     width: 450px;
     padding: 5px 10px;

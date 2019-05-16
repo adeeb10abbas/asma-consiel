@@ -65,9 +65,9 @@ h1 {
     position: absolute;
     
     background: #ffffff;
-    background: -moz-linear-gradient(top, transparent 0%, #465FFF 80%);
-    background: -webkit-linear-gradient(top, transparent 0%, #465FFF 80%);
-    background: linear-gradient(to bottom, transparent 0%, #465FFF 80%);
+    background: -moz-linear-gradient(top, transparent 0%, rgba(121, 243, 255, 1) 95%);
+    background: -webkit-linear-gradient(top, transparent 0%, rgba(121, 243, 255, 1) 95%);
+    background: linear-gradient(to bottom, transparent 0%, rgba(121, 243, 255, 1) 95%);
 }
 
 #fullscreen-bg {
@@ -652,7 +652,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 .flex-direction-nav .flex-prev {
 	left: 0px;
-    background-color: #384ccc;
+    background-color: #6cdae5;
     color: transparent;
 }
 
@@ -663,7 +663,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 .flex-direction-nav .flex-next {
 	right: 0px;
 	text-align: right;
-    background-color: #384ccc;
+    background-color: #6cdae5;
     color: transparent;
 }
 
@@ -777,7 +777,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 
 .footer .content {
-    background-color: #465FFF;
+    background-color: #78f3ff;
     
     color: white;
     font-family: 'Raleway', sans-serif;
@@ -819,7 +819,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     margin-right: 10px;
     padding: 20px;
     
-    background-color: rgba(255,255,255,0.1);
+    background-color: rgba(255,255,255,0.3);
 }
 
 .footer .droits {
@@ -836,7 +836,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 .footer .darker-bg {
-    background-color: #384ccc;
+    background-color: #6cdae5;
 }
 
 .footer p {
@@ -854,7 +854,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #blue {
-    background-color: #465FFF;
+    background-color: rgba(121, 243, 255, 1);
     height: 100px;
 }
 
@@ -893,7 +893,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 .side-testimonial i {
-    color: #465FFF;
+    color: rgba(121, 243, 255, 0.6);
     font-size: 12px;
 }
 
@@ -917,7 +917,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 #cabinet-sections .in-menu h3 {
     transition: .5s;
-    background-color: #465FFF;
+    background-color: rgba(121, 243, 255, 0.6);
     height: 200px;
     
     color: white;
@@ -926,7 +926,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 #cabinet-sections .in-menu h3:hover {
     transition: .5s;
-    background-color: #384ccc;
+    background-color: #6cdae5;
 }
 
 
@@ -1140,22 +1140,24 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 #aide #first-row ul li {
     width: 400px;
-    background: -moz-linear-gradient(left, rgba(255,119,0,1) 0%, rgba(96,150,147,1) 70%, rgba(96,150,147,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,119,0,1)), color-stop(70%, rgba(96,150,147,1)), color-stop(100%, rgba(96,150,147,1)));
-    background: -webkit-linear-gradient(left, rgba(255,119,0,1) 0%, rgba(96,150,147,1) 70%, rgba(96,150,147,1) 100%);
-    background: -o-linear-gradient(left, rgba(255,119,0,1) 0%, rgba(96,150,147,1) 70%, rgba(96,150,147,1) 100%);
-    background: -ms-linear-gradient(left, rgba(255,119,0,1) 0%, rgba(96,150,147,1) 70%, rgba(96,150,147,1) 100%);
-    background: linear-gradient(to right, rgba(255,119,0,1) 0%, rgba(96,150,147,1) 70%, rgba(96,150,147,1) 100%);
+    background: rgba(255,119,0,1);
+    background: -moz-linear-gradient(left, rgba(255,119,0,1) 0%, rgba(108,218,229,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,119,0,1)), color-stop(100%, rgba(108,218,229,1)));
+    background: -webkit-linear-gradient(left, rgba(255,119,0,1) 0%, rgba(108,218,229,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,119,0,1) 0%, rgba(108,218,229,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,119,0,1) 0%, rgba(108,218,229,1) 100%);
+    background: linear-gradient(to right, rgba(255,119,0,1) 0%, rgba(108,218,229,1) 100%);
 }
 
 #aide #second-row ul li {
     width: 450px;
-    background: -moz-linear-gradient(left, rgba(96,150,147,1) 0%, rgba(96,150,147,1) 30%, rgba(255,119,0,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(96,150,147,1)), color-stop(30%, rgba(96,150,147,1)), color-stop(100%, rgba(255,119,0,1)));
-    background: -webkit-linear-gradient(left, rgba(96,150,147,1) 0%, rgba(96,150,147,1) 30%, rgba(255,119,0,1) 100%);
-    background: -o-linear-gradient(left, rgba(96,150,147,1) 0%, rgba(96,150,147,1) 30%, rgba(225,119,0,1) 100%);
-    background: -ms-linear-gradient(left, rgba(96,150,147,1) 0%, rgba(96,150,147,1) 30%, rgba(225,119,0,1) 100%);
-    background: linear-gradient(to right, rgba(96,150,147,1) 0%, rgba(96,150,147,1) 30%, rgba(225,119,0,1) 100%);
+    background: rgba(108,218,229,1);
+    background: -moz-linear-gradient(left, rgba(108,218,229,1) 0%, rgba(255,119,0,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(108,218,229,1)), color-stop(100%, rgba(255,119,0,1)));
+    background: -webkit-linear-gradient(left, rgba(108,218,229,1) 0%, rgba(255,119,0,1) 100%);
+    background: -o-linear-gradient(left, rgba(108,218,229,1) 0%, rgba(255,119,0,1) 100%);
+    background: -ms-linear-gradient(left, rgba(108,218,229,1) 0%, rgba(255,119,0,1) 100%);
+    background: linear-gradient(to right, rgba(108,218,229,1) 0%, rgba(255,119,0,1) 100%);
 }
 
 #aide #second-row h3 {
@@ -1304,7 +1306,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #solutions-list li {
-    background-color: #465FFF;
+    background-color: rgba(121, 243, 255, 0.6);
     margin-bottom: 10px;
     width: 450px;
     padding: 5px 10px;

@@ -29,7 +29,7 @@
     
     <body>
         
-        <section id="side-accueil">
+        <section id="side-accueil" class="serv-accueil">
             
             
             
@@ -63,11 +63,11 @@
                 </div>  
 
                 <div class="row uprow">
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-4">
                         <img class="scale-up-center" src="footage/logo.png">
                     </div>
-                    <div class="col-md-4"></div>
-                    <h1 class="slide-in-elliptic-top-fwd col-md-4">Nos services</h1>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-4"></div>
+                    <h1 class="slide-in-elliptic-top-fwd col-lg-4 col-md-4 col-sm-4 col-4">Nos services</h1>
                     
                     
                 </div>
@@ -75,17 +75,17 @@
                 <h2 style="margin-top: -50px !important; margin-bottom: 20px; padding-left: 30px;">À chaque étape de votre parcours de chef d’entreprise, nous vous accompagnons!</h2>
                 <div class="row">
                     
-                    <p id="services-para" class="col-md-6">Notre cabinet accompagne ainsi les dirigeants et les autres acteurs dans toutes les opérations liées à la vie de leur entreprise et dans l’application des mesures législatives et règlementaires. <br><br>Le cabinet Asma Audit & Conseil apporte une particulière attention au respect des valeurs qui régissent la profession d’expert-comptable et de commissaires aux comptes : qualité, proximité et réactivité.</p>
+                    <p id="services-para" class="col-lg-6 col-md-6 col-sm-12 col-12">Notre cabinet accompagne ainsi les dirigeants et les autres acteurs dans toutes les opérations liées à la vie de leur entreprise et dans l’application des mesures législatives et règlementaires. <br><br>Le cabinet Asma Audit & Conseil apporte une particulière attention au respect des valeurs qui régissent la profession d’expert-comptable et de commissaires aux comptes : qualité, proximité et réactivité.</p>
                     
-                    <div  class="col-md-6">
-                    <ul id="services-list">
-                    
-                        <li><a data-scrcoll href="expertisecomptable.html">Expertise Comptable</a></li>
-                        <li><a data-scroll href="aidefinanciere.html">Aide Financière</a></li>
-                        <li><a data-scroll href="audit.html">Audit</a></li>
-                        <li><a data-scroll href="conseil.html">Conseil</a></li>
-                        
-                    </ul>
+                    <div  class="col-lg-6 col-md-6 col-sm-12 col-12">
+                        <ul id="services-list">
+
+                            <li><a data-scrcoll href="expertisecomptable.html">Expertise Comptable</a></li>
+                            <li><a data-scroll href="aidefinanciere.html">Aide Financière</a></li>
+                            <li><a data-scroll href="audit.html">Audit</a></li>
+                            <li><a data-scroll href="conseil.html">Conseil</a></li>
+
+                        </ul>
                     </div>
                     
                 </div>
@@ -94,47 +94,47 @@
         
         
         
-        <section class="footer">
-        
-            <div class="row content">
-            
-                <div class="footer-img col-md-3">
-                
-                    <img src="footage/logo.png">
-                
-                </div>
-            
-                <div class="footer-text col-md-4">
-                
-                    <p class="footer-para">Le cabinet Asma Audit & Conseil est avant tout une équipe de comptables et d’auditeurs professionnels, dynamique, réactive, et proche de ses clients.</p>
+        <section class="footer services-footer">
 
-                    <p class="footer-para">Toujours à la pointe de l'actualité comptable, le cabinet Asma Audit & Conseil vous accompagne dans tous vos projets.</p>
-                    
-                </div>
+            <div class="row content">
+
                 
-                <div class="footer-contact col-md-3 darker-bg">
-                    
+                <div class="footer-img col-lg-3 col-md-6 col-sm-6 col-xs-6">
+
+                    <img src="footage/logo.png">
+
+                </div>
+
+                <div class="footer-text col-lg-4 col-md-6 col-sm-6 col-xs-6">
+
+                    <p class="footer-para">Le cabinet ASMA AUDIT & CONSEIL est avant tout une équipe de comptables et d’auditeurs professionnels, dynamique, réactive, et proche de ses clients.</p>
+
+                    <p class="footer-para">Toujours à la pointe de l'actualité comptable, le cabinet ASMA AUDIT & CONSEIL vous accompagne dans tous vos projets.</p>
+
+                </div>
+
+                <div class="footer-contact col-lg-3 darker-bg col-md-6 col-sm-6 col-xs-6">
+
                     <a href="tel:+221 33 832 75 74"><p class="footer-tel"><i class="fas fa-phone"></i> (+221) 33 832 75 74 </p></a>
                     <a href="mailto:contact@sn.asma-audit.com"><p class="footer-mail"><i class="fas fa-envelope"></i> contact@sn.asma-audit.com</p></a>
-                    
+
                 </div>
-                
-                <div class="footer-address col-md-2 darker-bg">
-                
+
+                <div class="footer-address col-lg-2 darker-bg col-md-6 col-sm-6 col-xs-6">
+
                     <p>Hann Maristes 2 N 1561 
                     <br>3ème étage gauche 
                     <br><br>Dakar, Senegal 
                     <br>BP: 21300 Dakar Ponty </p>
-                
+
                 </div>
-                
+
                 <p class="droits">Tout le contenu © 2018 asma-audit.com | Tous les droits reserves</p>
-                
+
             </div>
-        
-        
-        </section>
-        
+
+
+        </section>        
         
         <script src="js/wow.min.js"></script>
         <script>
@@ -159,10 +159,6 @@
             function myFunction() {
                 $('html').toggleClass("overflow");
                 $('#blurry').toggleClass("bluraway");
-                $('#comptable').toggleClass("bluraway");
-                $('#audit').toggleClass("bluraway");
-                $('#conseil').toggleClass("bluraway");
-                $('#aide').toggleClass("bluraway");
                 $('.footer').toggleClass("bluraway");
             }
             var scroll = new SmoothScroll('a[href*="#comptable"]');

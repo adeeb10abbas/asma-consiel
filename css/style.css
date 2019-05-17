@@ -1,17 +1,13 @@
 /* General */
-
-
  body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
     width: 100%;
     height: 100%;
 }
 
-
-h1 {
-    font-size: 50px !important;
+html {
+    overflow-x: hidden;
 }
 
 .bluraway {
@@ -22,26 +18,33 @@ h1 {
     overflow-y: hidden;
 }
 
+.container {
+    padding: 0;
+    margin: 0;
+}
+
+
 /* Welcome section */
 
 .btn-container {
-    top: 50px;
+    top: 20px;
     width: 100%;
     position: absolute;
 }
 
 .buttons {
-    width: 120px;
+    width: 12vw;
     float: right;
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 .buttons button {
     transition: .3s;
-    width: 50px;
+    width: 5vw;
     border: 0;
     background-color: white;
     color: black;
+    font-size: 1.2vw;
 }
 
 .buttons button:hover {
@@ -65,9 +68,9 @@ h1 {
     position: absolute;
     
     background: #ffffff;
-    background: -moz-linear-gradient(top, transparent 0%, rgba(121, 243, 255, 1) 95%);
-    background: -webkit-linear-gradient(top, transparent 0%, rgba(121, 243, 255, 1) 95%);
-    background: linear-gradient(to bottom, transparent 0%, rgba(121, 243, 255, 1) 95%);
+    background: -moz-linear-gradient(top, transparent 0%, #006699 95%);
+    background: -webkit-linear-gradient(top, transparent 0%, #006699 95%);
+    background: linear-gradient(to bottom, transparent 0%, #006699 95%);
 }
 
 #fullscreen-bg {
@@ -92,7 +95,7 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     color: white;
     font-weight: 600;
-    font-size: 35px !important;
+    font-size: 2.3vw !important;
     
     margin-top: 10%;
 }
@@ -100,7 +103,7 @@ h1 {
 #accueil #header p {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 28px;
+    font-size: 2vw;
 }
 
 .slide-in-elliptic-top-fwd {
@@ -148,9 +151,7 @@ h1 {
 }
 
 #accueil #circle-logo img {
-    width: 400px;
-    float: right;
-    margin-left: 10px;
+    width: 33vw;
     
     z-index: 500 !important;
 }
@@ -185,16 +186,16 @@ h1 {
 
 
 *, *:before, *:after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 60px;
-  height: 100%;
-  z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 100%;
+    z-index: 999;
     background-color: rgba(0, 0, 0, 0.35);
 }
 nav .nav-wrap {
@@ -255,7 +256,7 @@ nav .nav-wrap .menu-bg {
 nav .nav-wrap .menu-bg a {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none;
     
@@ -341,7 +342,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 2.7vw;
     
     margin-bottom: 30px;
 }
@@ -359,31 +360,31 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 #services {
     width: 100%;
     margin-top: 100px;
-    margin-left: 30px;
 }
 
 #services #head h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 2.7vw;
     
     margin-bottom: 50px;
 }
 
 #services #orange1 {
     margin-top: 16px;
-    border-right: rgba(253, 151, 23, 0.6) 200px solid;
+    border-right: rgba(253, 151, 23, 0.6) 20vw solid;
     height: 10px;
 }
 
 #services #orange2 {
     margin-top: 16px;
-    border-left: rgba(253, 151, 23, 0.6) 200px solid;
+    border-left: rgba(253, 151, 23, 0.6) 20vw solid;
     height: 10px;
 }
 
 #services #head p {
     font-family: 'Raleway', sans-serif;
+    font-size: 1.5vw;
 }
 
 #services .cards {
@@ -405,7 +406,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     box-shadow: 0;
     
     margin: 10px;
-    height: 400px;
+    height: 35vw;
     
     background-color: rgba(253, 151, 23, 0.6);
     border-radius: 30px;
@@ -428,7 +429,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     -moz-box-shadow: 0;
     box-shadow: 0;
     
-    height: 400px;
+    height: 35vw;
     margin: 10px;
     
     background-color: rgba(253, 151, 23, 0.6);
@@ -448,7 +449,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 #services .card h3 {
     padding-top: 15px;
     
-    font-size: 22px;
+    font-size: 1.9vw;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -456,12 +457,12 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     width: 90%;
     
     font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    font-size: 1.2vw;
 }
 
 #services .card img {
     padding-top: 30px;
-    width: 70px;
+    width: 6vw;
     filter: invert(100%);
 }
 
@@ -476,9 +477,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 #services .left-card a {
     transition: .5s;
     
-    -webkit-box-shadow: 0;
-    -moz-box-shadow: 0;
-    box-shadow: 0;
+    font-size: 1.4vw;
 }
 
 #services .left-card a:hover {
@@ -492,9 +491,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 #services .right-card a {
     transition: .5s;
     
-    -webkit-box-shadow: 0;
-    -moz-box-shadow: 0;
-    box-shadow: 0;
+    font-size: 1.4vw;
 }
 
 #services .right-card a:hover {
@@ -545,7 +542,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     margin-top: -50px;
 	width: 80%;
     margin-bottom: 100px;
-    background-color: rgba(255, 255, 255, 0.5) !important;
+    background-color: white !important;
 }
 
 .testimonial-container img {
@@ -591,7 +588,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 	padding: 0 14px;
     
     font-family: 'Montserrat', sans-serif !important;
-    font-size: 17px !important;
+    font-size: 12px !important;
 }
 
 .testimonial-content p span {
@@ -777,15 +774,12 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 
 .footer .content {
-    background-color: #78f3ff;
+    background-color: #006699;
     
     color: white;
     font-family: 'Raleway', sans-serif;
 }
 
-.footer-img {
-    text-align: right;
-}
 
 .footer-text {
     margin-top: 5%;
@@ -796,8 +790,8 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 .footer img {
-    width: 300px;
-    margin-left: 50px;
+    width: 100%;
+    padding-left: 70px;
 }
 
 .footer-contact {
@@ -836,7 +830,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 .footer .darker-bg {
-    background-color: #6cdae5;
+    background-color: #0088cc;
 }
 
 .footer p {
@@ -854,8 +848,9 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #blue {
-    background-color: rgba(121, 243, 255, 1);
+    background-color: #006699;
     height: 100px;
+    z-index: -20000;
 }
 
 #side-accueil .uprow {
@@ -864,7 +859,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #side-accueil img {
-    width: 350px;
+    width: 300px;
 }
 
 #side-accueil h1 {
@@ -872,6 +867,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     padding: 150px 70px 0 0 ;
+    font-size:35px;
 }
 
 #side-accueil p {
@@ -917,7 +913,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 #cabinet-sections .in-menu h3 {
     transition: .5s;
-    background-color: rgba(121, 243, 255, 0.6);
+    background-color: #0088cc;
     height: 200px;
     
     color: white;
@@ -926,7 +922,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 #cabinet-sections .in-menu h3:hover {
     transition: .5s;
-    background-color: #6cdae5;
+    background-color: #006699;
 }
 
 
@@ -961,8 +957,8 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     float: right;
     text-align: center;
     list-style: none;
-    
-    padding-right: 150px;
+    padding-right: 10vw;
+
 }
 
 #services-list a {
@@ -1139,7 +1135,8 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #aide #first-row ul li {
-    width: 400px;
+    width: 30vw;
+    float: left;
     background: rgba(255,119,0,1);
     background: -moz-linear-gradient(left, rgba(255,119,0,1) 0%, rgba(108,218,229,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,119,0,1)), color-stop(100%, rgba(108,218,229,1)));
@@ -1150,7 +1147,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #aide #second-row ul li {
-    width: 450px;
+    width: 30vw;
     background: rgba(108,218,229,1);
     background: -moz-linear-gradient(left, rgba(108,218,229,1) 0%, rgba(255,119,0,1) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(108,218,229,1)), color-stop(100%, rgba(255,119,0,1)));
@@ -1306,7 +1303,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #solutions-list li {
-    background-color: rgba(121, 243, 255, 0.6);
+    background-color: #0088cc;
     margin-bottom: 10px;
     width: 450px;
     padding: 5px 10px;
@@ -1333,7 +1330,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 .contact-row img {
     float: right;
-    width: 500px !important;
+    width: 40vw !important;
     margin-top: 100px;
 }
 
@@ -1438,7 +1435,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 .article-title {
-    background-color: rgba(61, 116, 113, 0.9);
+    background-color: rgba(0,136,204, 0.9);
 }
 
 #first-summary .article-title {
@@ -1719,4 +1716,606 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     
     padding: 20px 20px 5px 20px;
     background-color: white;
+}
+
+.ref-test p {
+    color: #006699 !important;
+    font-size: 14px !important;
+}
+
+
+
+/* Media queries */
+
+
+
+@media screen and (max-width: 990px) {
+    nav .nav-wrap .menu-bg a {
+        width: 100%;
+    }
+    nav .nav-wrap #hamburger:checked ~ .menu-bg {
+        width: 100%;
+    }
+    nav .nav-wrap #hamburger:checked ~ .menu-bg a {
+        width: 100%;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    html {
+        overflow-x: hidden;
+    }
+    .buttons button {
+        font-size: 3vw;
+        width: 10vw;
+    }
+    .buttons {
+        width: 21vw;
+    }
+    #overlay {
+        height: 90vw;
+        
+        background: -moz-linear-gradient(top, transparent 0%, #006699 50%);
+        background: -webkit-linear-gradient(top, transparent 0%, #006699 50%);
+        background: linear-gradient(to bottom, transparent 0%, #006699 50%);
+    }
+    #accueil, #side-accueil {
+        height: 90vw;
+    }
+    #conseil {
+        background-color: #006699;
+        color: white !important;
+    }
+    .demarche-accueil{
+        height: 70vw !important;
+    }
+    .atouts-accueil {
+        height: 83vw !important;
+    }
+    .refe-accueil {
+        height: 100vw !important;
+    }
+    .refe-accueil #overlay {
+        height: 120vh;
+        
+        background: -moz-linear-gradient(top, transparent 0%, #006699 20%);
+        background: -webkit-linear-gradient(top, transparent 0%, #006699 20%);
+        background: linear-gradient(to bottom, transparent 0%, #006699 20%);
+    }
+    .serv-accueil {
+        height: 70vw !important;
+    }
+    .serv-accueil #overlay {
+        height: 80vh;
+        
+        background: -moz-linear-gradient(top, transparent 0%, #006699 20%);
+        background: -webkit-linear-gradient(top, transparent 0%, #006699 20%);
+        background: linear-gradient(to bottom, transparent 0%, #006699 20%);
+    }
+    .cab-accueil {
+        height: 70vw !important;
+        margin-bottom: 50px;
+    }
+    .cab-accueil #overlay {
+        height: 80vh;
+        
+        background: -moz-linear-gradient(top, transparent 0%, #006699 20%);
+        background: -webkit-linear-gradient(top, transparent 0%, #006699 20%);
+        background: linear-gradient(to bottom, transparent 0%, #006699 20%);
+    }
+    
+
+    
+    #contact-accueil {
+        height: 100vh;
+    }
+    #contact-accueil #fullscreen-bg-video {
+        height: 100vh;
+    }
+    #contact-accueil #overlay {
+        height: 100vh;
+        
+        background: -moz-linear-gradient(top, transparent 0%, #006699 70%);
+        background: -webkit-linear-gradient(top, transparent 0%, #006699 70%);
+        background: linear-gradient(to bottom, transparent 0%, #006699 70%);
+    }
+    #accueil #circle-logo img {
+        width: 60vw;
+    }
+    #accueil #header h1 {
+        font-size: 3vw !important;
+        text-align: center;
+        margin-top: -5% !important;   
+    }
+    #accueil #header p {
+        font-size: 2.7vw;
+        text-align: center;
+    }
+    #introduction #text p {
+        font-size: 2.8vw;
+    }
+    nav {
+        background-color: transparent !important;
+    }
+    nav .nav-wrap {
+        box-shadow: 0 0 0 transparent !important;
+    }
+    nav .nav-wrap .hamburger {
+        height: 10px;
+    }
+    nav .nav-wrap .hamburger span {
+        width: 80%;
+        height: 3px;
+        background-color: #006699;
+    }
+    nav .nav-wrap .hamburger span:before, nav .nav-wrap .hamburger span:after {
+        height: 3px;
+        background-color: #006699;
+    }
+    nav .nav-wrap .hamburger span:before {
+        top: -2px;
+    }
+    nav .nav-wrap .hamburger span:after {
+        top: 2px;
+    }
+    #services #head p {
+        font-size: 2.9vw;
+    }
+    #services #head h2 {
+        font-size: 3.2vw;
+    }
+    #introduction #text h2 {
+        font-size: 3.2vw;
+    }
+    #services .card img {
+        width: 8vw;
+    }
+    #services .card h3 {
+        font-size: 3vw;
+    }
+    #services .card p {
+        font-size: 2.7vw;
+    }
+    #services .left-card, #services .right-card {
+        height: auto;
+        padding-bottom: 30px;
+    }
+    #services .cards {
+        width: 80%;
+    }
+    .footer-tel {
+        padding-top: 15%;
+    }
+    .footer-address p {
+        margin-top: 5%;
+    }
+    .footer .droits {
+        left: 30px;
+        font-size: 11px;
+    }
+        #orange1, #orange2 {
+        display: none;
+    }
+    .contact-footer {
+        display: none;
+    }
+    #banner-logo img {
+        width: 30vw;
+        padding-top: 20%;
+    }
+    #banner-h1 h1 {
+        font-size: 7vw !important;
+        padding-top: 20%;
+    }
+    #banner {
+        height: 30vh;
+    }
+    #side-accueil img {
+        width: 35vw;
+    }
+    #side-accueil h1 {
+        font-size: 3vw !important;
+        padding: 85px 30px;
+    }
+    .equipe-more {
+        margin-top: 50px;
+        width: 90%;
+    }
+    #portrait {
+        width: 35vw;
+    }
+    .equipe-more .p {
+        margin-top: 10%;
+    }
+    #side-accueil h2 {
+        margin-left: 30px;
+        font-size: 3vw;
+    }
+    #side-accueil p {
+        padding-left: 70px;
+        font-size: 2.2vw;
+    }
+    .equipe-more .p p {
+        font-size: 17px;
+    }
+    #first-menu {
+        margin-top: -15px;
+    }
+    #cabinet-sections .in-menu h3 {
+        font-size: 15px;
+        height: auto;
+        padding: 20px 0;
+    }
+    #second-menu {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    #demarche-p {
+        margin-top: -50px !important;
+    }
+    .testimonial-content p {
+        font-size: 13px !important;
+    }
+    .experience-row {
+        width: 100%;
+    }
+    .experience-row .testimonial-container {
+        width: 100%;
+    }
+    #experience {
+        padding-top: 10px;
+    }
+    .testimonial-container img {
+        width: 80%;
+        height: auto;
+    }
+    .da h2 {
+        padding-top: 10px;
+    }
+    #services-list {
+        margin-top: 30px;
+    }
+    #services-para {
+        margin-top: -5px;
+    }
+    #comptable-details {
+        margin-top: -100px;
+    }
+    #first-row {
+        margin-top: -300px !important;
+    }
+    #aide .aide-details {
+        width: 95%;
+    }
+    #aide p {
+        width: 100%;
+    }
+    #audit {
+        margin-top: -600px;
+    }
+    #audit p {
+        font-size: 18px;
+        width: 85%;
+    }
+    .white-text {
+        font-size: 18px;
+    }
+    .benef {
+        width: 100%;
+    }
+    #solutions-list {
+        margin-bottom: 0;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 577px) {
+    .footer-img {
+        width: 200px;
+        margin: auto;
+    }
+    .footer .content {
+        padding-bottom: 50px;
+    }
+    .footer img {
+        padding: 0;
+    }
+    .footer-text {
+        width: 80%;
+        margin: -30px auto;
+        text-align: center;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+    .footer .darker-bg {
+        background-color: transparent;
+    }
+    .footer-address {
+        text-align: center;
+        width: 70%;
+        margin: auto;
+    }
+    .footer-address p {
+        margin:0;
+    }
+    .footer .droits {
+        top: 15px;
+        left: 30px;
+        font-size: 11px;
+    }
+    .contact-row img {
+        float: none;
+        width: 100%;
+        margin-top: 0;
+    }
+    #contact-info {
+        margin-top: 0;
+        text-align: center;
+    }
+    #address {
+        margin: auto;
+    }
+    #second-summary {
+        padding: 0;
+    }
+    #first-summary {
+        height: 100vw;
+        margin-bottom: 15px;
+    }
+    #third-summary {
+        width: 76%;
+        margin-left: 1px;
+    }
+    #second-first, #second-second, #third-first, #third-second, #third-third {
+        height: 100vw;
+    }
+    #third-second {
+        border: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #derniers {
+        margin-top: 1000px;
+    }
+    #derniers-articles {
+        padding-top: 30px;
+    }
+    #derniers-articles h3 {
+        font-size: 5vw;
+        margin-top: 10px;
+        margin-bottom: 1px;
+    }
+    .first-art {
+        margin-top: 10vw;
+    }
+    .article {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .article h1 {
+        font-size: 6vw;
+    }
+    .article .hashtags {
+        padding: 0;
+        font-size: 14px;
+        text-align: center;
+    }
+    .article .time {
+        padding: 0;
+        font-size: 12px;
+        text-align: center;
+    }
+    .article-summary {
+        font-size: 3vw;
+        margin-top: 10px;
+    }
+    .more {
+        font-size: 3.5vw;
+    }
+    #white-bg h2 {
+        font-size: 5vw !important;
+    }
+    #white-bg .tags {
+        font-size: 3vw !important;
+    }
+    #white-bg p {
+        font-size: 4vw !important;
+    }
+    #contact-accueil h1 {
+        font-size: 6vw;
+    }
+    #contact-accueil p {
+        font-size: 4vw;
+    }
+    .uprow img {
+        margin: 30px 30px;
+    }
+    .equipe-more {
+        text-align: center;
+    }
+    #side-accueil h2 {
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+        font-size: 16px;
+        text-align: center;
+    }
+    #side-accueil p {
+        padding-left: 30px !important;
+        margin-top: 20px;
+        font-size: 8px;
+        width: 90%;
+    }
+    .equipe-more .p p {
+        font-size: 12px;
+    }
+    #portrait {
+        margin-top: -80px;
+    }
+    .testimonial-content p {
+        font-size: 11px !important;
+        width: 90%;
+    }
+    .atout .testimonial-content {
+        width: 100% !important;
+    }
+    
+    .atouts-accueil {
+        height: 140vw !important;
+        background:linear-gradient( rgba(0, 0, 0, 0.2), #006699 ), url('contact/services-poster.png') center;
+    }
+    .atouts-accueil #overlay {
+        height: 140vw !important;
+        
+        background: -moz-linear-gradient(top, transparent 0%, #006699 50%) !important;
+        background: -webkit-linear-gradient(top, transparent 0%, #006699 50%) !important;
+        background: linear-gradient(to bottom, transparent 0%, #006699 50%) !important;
+    }
+    .experience-row h3 {
+        font-size: 15px;
+    }
+    .experience-row li {
+        font-size: 10px;
+    }
+    .refe-accueil {
+        height: 100vh !important;
+    }
+    .refe-accueil #overlay {
+        height: 100vh !important;
+        
+        background: -moz-linear-gradient(top, transparent 0%, #006699 20%) !important;
+        background: -webkit-linear-gradient(top, transparent 0%, #006699 20%) !important;
+        background: linear-gradient(to bottom, transparent 0%, #006699 20%) !important;
+    }
+    .serv-accueil {
+        height: 100vh !important;
+    }
+    .serv-accueil #overlay {
+        height: 120vh !important;
+        
+        background: -moz-linear-gradient(top, transparent 0%, #006699 20%) !important;
+        background: -webkit-linear-gradient(top, transparent 0%, #006699 20%) !important;
+        background: linear-gradient(to bottom, transparent 0%, #006699 20%) !important;
+    }   
+    
+    .cab-accueil {
+        height: 50vh !important;
+    }
+    .cab-accueil #overlay {
+        height: 60vh !important;
+        
+        background: -moz-linear-gradient(top, transparent 0%, #006699 50%) !important;
+        background: -webkit-linear-gradient(top, transparent 0%, #006699 50%) !important;
+        background: linear-gradient(to bottom, transparent 0%, #006699 50%) !important;
+    }   
+    
+    #experience {
+        margin-top: -80px;
+    }
+    .da h2 {
+        margin-bottom: 70px;
+        margin-top: 20px;
+    }
+    #services-list a {
+        font-size: 12px;
+    }
+    #services-para {
+        font-size: 13px !important;
+    }
+    #comptable-details {
+        margin-top: 200px;
+    }
+    #comptable-details h4 {
+        font-size: 15px;
+    }
+    #revision ul, #tenue ul, #fiscale ul {
+        text-align: center;
+        padding: 10px;
+        margin: 0;
+        font-size: 12px;
+    }
+    #tenue {
+        padding: 0;
+    }
+    #tenue, #revision, #fiscale {
+        margin-bottom: 20px;
+    }
+    #first-row {
+        margin-top: 200px !important;
+    }
+    .aide-details h3 {
+        font-size: 14px;
+    }
+    .aide-details p {
+        font-size: 11px;
+    }
+    .aide-details ul li {
+        font-size: 10px;
+    }
+    #first-row {
+        padding: 0 !important;
+        margin-left:-30px !important;
+    }
+    #first-row ul, #second-row ul {
+        padding: 0 !important;
+    }
+    #aide #second-row h3 {
+        margin-top: 40vh;
+        font-size: 13px;
+    } 
+    #aide #second-row p {
+        width: 90%;
+    }
+    .white-text {
+        font-size: 11px !important;
+    }
+    #audit .items-blue h3 {
+        font-size: 12px;
+    }
+    #audit .border-blue {
+        border: 1px solid white;
+    }
+    #audit p {
+        font-size: 13px;
+        width: 85%;
+    }
+    #audit {
+        margin-top: -500px;
+    }
+    #missions h4 {
+        font-size: 15px;
+        margin-left: 0 !important;
+    }
+    #missions ul {
+        padding: 0;
+        font-size: 13px;
+    }
+    #down-go {
+        margin-top: 30px;
+    }
+    .white-text-da {
+        margin-top: 200px;
+    }
+    #conseil h2 {
+        font-size: 20px;
+    }
+    .vous-pour {
+        width: 90% !important;
+    }
+    .vous-pour h3 {
+        font-size: 17px;
+        margin: 0 !important;
+        margin-bottom: 20px !important;
+    }
+    .vous-pour ul li, #conseil p{
+        font-size: 11px !important;
+        width: 90% !important;
+    }
+    #solutions-list {
+        padding-left: 0;
+    }
+    #solutions-list li {
+        font-size: 13px;
+        width: 90%;
+    }
 }

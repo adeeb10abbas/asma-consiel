@@ -32,6 +32,10 @@ html {
     position: absolute;
 }
 
+
+.btn-container, .buttons {
+    z-index: 10000 !important;
+}
 .buttons {
     width: 12vw;
     float: right;

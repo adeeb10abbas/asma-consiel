@@ -212,50 +212,51 @@ nav .nav-wrap {
   background-color: transparent;
 }
 nav .nav-wrap .hamburger {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 95%;
-  height: 50px;
-  cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 40px;
+    padding-top: -20px;
+    cursor: pointer !important;
 }
 nav .nav-wrap .hamburger span {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 4px;
-  background-color: white;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: white;
 }
 nav .nav-wrap .hamburger span:before, nav .nav-wrap .hamburger span:after {
-  position: absolute;
-  content: '';
-  width: 90%;
-  height: 4px;
-  background-color: white;
+    position: absolute;
+    content: '';
+    width: 90%;
+    height: 4px;
+    background-color: white;
 }
 nav .nav-wrap .hamburger span:before {
-  transform: translateY(-6px);
-  animation: burger1 250ms linear;
+    transform: translateY(-6px);
+    animation: burger1 250ms linear;
     top: -5px;
 }
 nav .nav-wrap .hamburger span:after {
-  transform: translateY(6px);
-  animation: burger2 250ms linear;
+    transform: translateY(6px);
+    animation: burger2 250ms linear;
     top: 5px;
 }
 
 nav .nav-wrap .menu-bg {
-  position: fixed;
-  top: 0;
-  left: -20px;
-  width: 0;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  transition: all 0.5s ease;
-  z-index: -1;
+    position: fixed;
+    top: 0;
+    left: -20px;
+    width: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    z-index: -1;
 }
 nav .nav-wrap .menu-bg a {
     font-family: 'Montserrat', sans-serif;
@@ -288,7 +289,7 @@ nav .nav-wrap .menu-bg a:hover {
   transition: 500ms;
 }
 nav .nav-wrap #hamburger {
-  display: none;
+  opacity: 0;
 }
 
 nav .nav-wrap #hamburger:checked ~ .menu-bg {
@@ -1807,9 +1808,6 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
         background: -webkit-linear-gradient(top, transparent 0%, #006699 20%);
         background: linear-gradient(to bottom, transparent 0%, #006699 20%);
     }
-    
-
-    
     #contact-accueil {
         height: 100vh;
     }
@@ -1838,30 +1836,25 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     #introduction #text p {
         font-size: 2.8vw;
     }
+    
+    
+    
     nav {
         background-color: transparent !important;
     }
     nav .nav-wrap {
         box-shadow: 0 0 0 transparent !important;
+        padding-left: 20px;
     }
-    nav .nav-wrap .hamburger {
-        height: 10px;
+    .hamburger span, .hamburger span:before, .hamburger span:after {
+        background-color: #0088cc !important;
+        width: 40px !important;
     }
-    nav .nav-wrap .hamburger span {
-        width: 80%;
-        height: 3px;
-        background-color: #006699;
+    .hamburger {
+        padding-top: 30px;
     }
-    nav .nav-wrap .hamburger span:before, nav .nav-wrap .hamburger span:after {
-        height: 3px;
-        background-color: #006699;
-    }
-    nav .nav-wrap .hamburger span:before {
-        top: -2px;
-    }
-    nav .nav-wrap .hamburger span:after {
-        top: 2px;
-    }
+    
+    
     #services #head p {
         font-size: 2.9vw;
     }
@@ -2014,6 +2007,44 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 @media screen and (max-width: 577px) {
+    #round {
+        background-color: #0088cc;
+        height: 30px;
+        width: 30px;
+        padding-top: 13px !important;
+        padding-left: 6px !important;
+        border-radius: 50px;
+    }
+    .hamburger {
+        height: 150px !important;
+        margin-top: 28vh;
+    }
+    .hamburger span, .hamburger span:before, .hamburger span:after {
+        width: 18px !important;
+        background-color: white !important;
+        height: 2px !important;
+    }
+    #hamburger {
+        width: 0;
+        height: 0;
+    }
+    nav .nav-wrap {
+        padding-left: 0 !important;
+        margin-left: -5px !important;
+        padding-top: 0 !important;
+    }
+    nav .nav-wrap .hamburger span:before {
+    transform: translateY(-6px);
+    animation: burger1 250ms linear;
+    top: -0.5px !important;
+}
+nav .nav-wrap .hamburger span:after {
+    transform: translateY(6px);
+    animation: burger2 250ms linear;
+    top: 0.5px !important;
+}
+    
+    
     .footer-img {
         width: 200px;
         margin: auto;
@@ -2321,5 +2352,9 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     #solutions-list li {
         font-size: 13px;
         width: 90%;
+    }
+    .buttons {
+        margin-right: 0 !important;
+        margin-top: 30px !important;
     }
 }

@@ -1751,11 +1751,11 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
         overflow-x: hidden;
     }
     .buttons button {
-        font-size: 3vw;
-        width: 10vw;
+        font-size: 1.5vw;
+        width: 5vw;
     }
     .buttons {
-        width: 21vw;
+        width: 11vw;
     }
     #overlay {
         height: 90vw;
@@ -1912,7 +1912,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     }
     #side-accueil h1 {
         font-size: 3vw !important;
-        padding: 85px 30px;
+        padding: 130px 30px;
     }
     .equipe-more {
         margin-top: 50px;
@@ -2175,6 +2175,10 @@ nav .nav-wrap .hamburger span:after {
         font-size: 16px;
         text-align: center;
     }
+    #side-accueil h1 {
+        padding-top: 100px;
+        padding-bottom: 20px;
+    }
     #side-accueil p {
         padding-left: 30px !important;
         margin-top: 20px;
@@ -2355,6 +2359,14 @@ nav .nav-wrap .hamburger span:after {
     }
     .buttons {
         margin-right: 0 !important;
-        margin-top: 30px !important;
+    }
+    .buttons a {
+        line-height: 15px;
+    }
+    .buttons button {
+        padding: 0;
+    }
+    .btn-container {
+        top: 0 !important;
     }
 }

@@ -10,9 +10,6 @@ html {
     overflow-x: hidden;
 }
 
-.bluraway {
-    filter: blur(10px);
-}
 
 .overflow {
     overflow-y: hidden;
@@ -90,6 +87,15 @@ html {
     width: 100%;
 }
 
+#header-text h1 {
+    width: 80% !important;
+    margin-bottom: 35px;
+}
+
+#header-text p {
+    width: 80% !important;
+}
+
 #accueil #header {
     margin: auto;
     padding-top: 12%;
@@ -158,6 +164,7 @@ html {
     width: 33vw;
     
     z-index: 500 !important;
+    float: right;
 }
 
 .scale-up-center {
@@ -200,7 +207,7 @@ nav {
     width: 60px;
     height: 100%;
     z-index: 999;
-    background-color: rgba(0, 0, 0, 0.35);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 nav .nav-wrap {
   position: relative;
@@ -208,7 +215,7 @@ nav .nav-wrap {
   height: 100%;
   margin: 0;
   padding: 20px 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   background-color: transparent;
 }
 nav .nav-wrap .hamburger {
@@ -307,7 +314,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a {
   height: 12.5vh;
   margin: 0;
   padding: 30px 0 30px 50px;
-  background-color: rgba(0, 0, 0, 0.35);
+  background-color: rgba(0, 0, 0, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   overflow: hidden;
   transition: width 0.75s ease;
@@ -322,7 +329,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:nth-of-type(3) {
   transition-delay: 0.1875s;
 }
 nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.7);
   transition: background-color 500ms linear !important;
 }
 
@@ -362,6 +369,10 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 /* Services */
 
 
+#servis {
+    width: 60%;
+}
+
 #services {
     width: 100%;
     margin-top: 100px;
@@ -377,13 +388,13 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 #services #orange1 {
     margin-top: 16px;
-    border-right: rgba(253, 151, 23, 0.6) 20vw solid;
+    border-right: #FDAC45 20vw solid;
     height: 10px;
 }
 
 #services #orange2 {
     margin-top: 16px;
-    border-left: rgba(253, 151, 23, 0.6) 20vw solid;
+    border-left: #FDAC45 20vw solid;
     height: 10px;
 }
 
@@ -413,7 +424,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     margin: 10px;
     height: 35vw;
     
-    background-color: rgba(253, 151, 23, 0.6);
+    background-color: #FDAC45;
     border-radius: 30px;
 }
 
@@ -424,7 +435,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     -moz-box-shadow: -20px 30px 40px -13px rgba(153,153,153,1);
     box-shadow: -20px 30px 40px -13px rgba(153,153,153,1);
     
-    background-color: rgba(253, 151, 23, 0.8);
+    background-color: #e38002;
 }
 
 #services .right-card {
@@ -437,7 +448,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     height: 35vw;
     margin: 10px;
     
-    background-color: rgba(253, 151, 23, 0.6);
+    background-color: #FDAC45;
     border-radius: 30px;
 }
 
@@ -448,7 +459,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     -moz-box-shadow: 20px 30px 40px -13px rgba(153,153,153,1);
     box-shadow: 20px 30px 40px -13px rgba(153,153,153,1);
     
-    background-color: rgba(253, 151, 23, 0.8);
+    background-color: #e38002;
 }
 
 #services .card h3 {
@@ -475,7 +486,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     padding: 10px 15px;
     text-decoration: none;
     background-color: white;
-    color: rgba(253, 151, 23, 0.8);
+    color: #e38002;
     border-radius: 20px;
 }
 
@@ -565,10 +576,14 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     
 }
 
+.atout .cd-testimonials-wrapper {
+    background-color: #FDAC45;
+}
+
 .testimonial-content {
 	max-width: 1000px;
-	width: 80%;
-	margin:40px auto 30px auto;
+    width: 100% !important;
+	margin:20px auto 30px auto;
 }
 
 .cd-testimonials {
@@ -590,10 +605,11 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 .testimonial-content p {
-	padding: 0 14px;
+	padding: 8px 14px;
     
     font-family: 'Montserrat', sans-serif !important;
-    font-size: 12px !important;
+    font-size: 14px !important;
+    color: white;
 }
 
 .testimonial-content p span {
@@ -614,7 +630,9 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 	}
 }
 
-@media only screen and (max-width: 320px) {}
+.flex-direction-nav {
+    display: none;
+}
 
 .flex-direction-nav a {
 	text-decoration: none;
@@ -731,6 +749,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 	margin: 0 auto;
 	padding: 0;
 	text-align: center;
+    bottom: -50px;
 	width: 100%;
 }
 
@@ -834,9 +853,6 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     color: white;
 }
 
-.footer .darker-bg {
-    background-color: #0088cc;
-}
 
 .footer p {
     font-size: 14px;
@@ -844,6 +860,55 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 
 /* Cabinet */
+
+
+.single-item {
+    background-color: white;
+    padding-top: 3%;
+}
+
+.single-item img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.single-item #teranga, .single-item #ascent {
+    padding-top: 20%;
+}
+
+#slick-prev {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    left: -50px;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    padding: 0;
+}
+
+#slick-next {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+
+    left: 103%;
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    padding: 0;
+}
+
+#kabin {
+    width: 60% !important;
+}
 
 #side-accueil {
         width: 100%;
@@ -873,14 +938,16 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     font-weight: 600;
     padding: 150px 70px 0 0 ;
     font-size:35px;
+    margin-bottom: 50px;
 }
 
 #side-accueil p {
     color: white;
     font-family: 'Raleway', sans-serif;
     
-    padding-left: 150px;
+    margin: auto;
     width: 80%;
+    
 }
 
 #side-accueil h2 {
@@ -894,7 +961,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 .side-testimonial i {
-    color: rgba(121, 243, 255, 0.6);
+    color: white;
     font-size: 12px;
 }
 
@@ -918,7 +985,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 #cabinet-sections .in-menu h3 {
     transition: .5s;
-    background-color: #0088cc;
+    background-color: #006699;
     height: 200px;
     
     color: white;
@@ -927,10 +994,12 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 #cabinet-sections .in-menu h3:hover {
     transition: .5s;
-    background-color: #006699;
+    background-color: #0088cc;
 }
 
-
+#demarche-p {
+    width: 60% !important;
+}
 
 
 /* Equipe */
@@ -958,6 +1027,8 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 /* Service */
 
+
+
 #services-list {
     float: right;
     text-align: center;
@@ -978,7 +1049,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 #services-list li {
     transition: .3s;
     
-    width: 300px !important;
+    width: 25vw !important;
     background-color: rgba(255,255,255,0.7);
     margin-bottom: 10px;
     padding: 10px;
@@ -991,11 +1062,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #services-para {
-    margin-top: 30px;
-}
-
-#comptable {
-    margin-top: -200px;
+    padding-left: 10vw !important;
 }
 
 #comptable h2 {
@@ -1024,12 +1091,12 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     margin-top: 50px;
     width: 85%;
     margin-bottom: 100px;
+    color: white;
 }
 
 #revision {
-    border-radius: 5%;
     padding: 20px 0 20px 0;
-    background-color: #eee;
+    background-color: #fdac45;
 }
 
 #revision ul {
@@ -1049,37 +1116,29 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #comptable-details ul li {
-    border-bottom: 1px solid #bbb;
+    border-bottom: 1px solid white;
     padding: 5px 0 5px 0;
 }
 
-#tenue-in {
-    border-radius: 5%;
-    padding: 20px 0 20px 0;
-    background-color: #eee;
-
+#tenue {
+    background-color: #fdac45;
 }
 
 #tenue ul {
-       text-align: center;
+    text-align: center;
     width: 95%;
     margin-left: -45px;
 }
 
 #fiscale {
-    border-radius: 5%;
     padding: 20px 0 20px 0;
-    background-color: #eee;
+    background-color: #fdac45;
 }
 
 #fiscale ul {
-       text-align: left;
-        margin-left: -60px;
+    text-align: left;
+    margin-left: -60px;
     width: 95%;
-}
-
-#aide {
-    margin-top: -200px;
 }
 
 #aide h2 {
@@ -1166,12 +1225,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     margin-top: 25%;
 }
 
-#audit {
-    margin-top: -380px;
-}
-
 .white-text {
-    color: white;
     width: 80% !important;
 }
 
@@ -1205,7 +1259,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #audit .border-blue {
-    border-top: 10px white solid;
+    border-top: 10px orange solid;
     height: 1px;
     margin-top: 1%;
 }
@@ -1235,18 +1289,6 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 #audit #missions ul li {
     border-bottom: 1px solid #bbb;
     padding: 5px 0;
-}
-
-#conseil {
-    margin-top: -400px;
-}
-
-.white-text-more {
-    margin-bottom: 100px;
-}
-
-.white-text-da {
-    color: white;
 }
 
 .white-text-da ul {
@@ -1308,7 +1350,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #solutions-list li {
-    background-color: #0088cc;
+    background-color: #fdac45;
     margin-bottom: 10px;
     width: 450px;
     padding: 5px 10px;
@@ -1723,10 +1765,6 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     background-color: white;
 }
 
-.ref-test p {
-    color: #006699 !important;
-    font-size: 14px !important;
-}
 
 
 
@@ -1735,6 +1773,16 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 
 @media screen and (max-width: 990px) {
+
+    #kabin {
+        width: 90% !important;
+    }
+    #servis {
+        width: 100%;
+    }
+    #accueil #circle-logo img {
+        float: none;
+    }
     nav .nav-wrap .menu-bg a {
         width: 100%;
     }
@@ -1759,17 +1807,16 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     }
     #overlay {
         height: 90vw;
-        
         background: -moz-linear-gradient(top, transparent 0%, #006699 50%);
         background: -webkit-linear-gradient(top, transparent 0%, #006699 50%);
         background: linear-gradient(to bottom, transparent 0%, #006699 50%);
     }
     #accueil, #side-accueil {
-        height: 90vw;
+        height: auto;
+        overflow-y: visible !important;
     }
     #conseil {
-        background-color: #006699;
-        color: white !important;
+        color: black !important;
     }
     .demarche-accueil{
         height: 70vw !important;
@@ -1782,13 +1829,9 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     }
     .refe-accueil #overlay {
         height: 120vh;
-        
         background: -moz-linear-gradient(top, transparent 0%, #006699 20%);
         background: -webkit-linear-gradient(top, transparent 0%, #006699 20%);
         background: linear-gradient(to bottom, transparent 0%, #006699 20%);
-    }
-    .serv-accueil {
-        height: 70vw !important;
     }
     .serv-accueil #overlay {
         height: 80vh;
@@ -1836,9 +1879,6 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     #introduction #text p {
         font-size: 2.8vw;
     }
-    
-    
-    
     nav {
         background-color: transparent !important;
     }
@@ -1912,7 +1952,8 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     }
     #side-accueil h1 {
         font-size: 3vw !important;
-        padding: 130px 30px;
+        padding: 130px 30px 0 30px;
+        margin-bottom: 50px !important;
     }
     .equipe-more {
         margin-top: 50px;
@@ -1948,7 +1989,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
         margin-bottom: 30px;
     }
     #demarche-p {
-        margin-top: -50px !important;
+        width: 90% !important;
     }
     .testimonial-content p {
         font-size: 13px !important;
@@ -1970,7 +2011,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
         padding-top: 10px;
     }
     #services-list {
-        margin-top: 30px;
+        margin-top: 30px;        
     }
     #services-para {
         margin-top: -5px;
@@ -1987,9 +2028,6 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     #aide p {
         width: 100%;
     }
-    #audit {
-        margin-top: -600px;
-    }
     #audit p {
         font-size: 18px;
         width: 85%;
@@ -2003,6 +2041,16 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     #solutions-list {
         margin-bottom: 0;
         padding-bottom: 50px;
+    }
+    #comptable-details {
+        margin-top: 5vh;
+    }
+    #down-down {
+        margin-bottom: 300px !important;
+        width: 70% !important;
+    }
+    #ninety-width {
+        width: 80% !important;
     }
 }
 
@@ -2179,12 +2227,6 @@ nav .nav-wrap .hamburger span:after {
         padding-top: 100px;
         padding-bottom: 20px;
     }
-    #side-accueil p {
-        padding-left: 30px !important;
-        margin-top: 20px;
-        font-size: 8px;
-        width: 90%;
-    }
     .equipe-more .p p {
         font-size: 12px;
     }
@@ -2259,10 +2301,9 @@ nav .nav-wrap .hamburger span:after {
         font-size: 12px;
     }
     #services-para {
-        font-size: 13px !important;
-    }
-    #comptable-details {
-        margin-top: 200px;
+        width: 80% !important;
+        
+        font-size: 16px;
     }
     #comptable-details h4 {
         font-size: 15px;
@@ -2317,9 +2358,6 @@ nav .nav-wrap .hamburger span:after {
     #audit p {
         font-size: 13px;
         width: 85%;
-    }
-    #audit {
-        margin-top: -500px;
     }
     #missions h4 {
         font-size: 15px;

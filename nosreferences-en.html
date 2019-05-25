@@ -10,11 +10,13 @@
         <title>Asma Audit & Conseil | Our references</title>
         <meta name="description" content="Le cabinet Asma Audit & Conseil est une équipe d’auditeurs professionnels, dynamique, réactive, et proche de ses clients.Toujours à la pointe de l'actualité comptable, le cabinet Asma Audit & Conseil vous accompagne dans tous vos projets.">
 
+        <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+        
         
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,400,300,500,600,600|Montserrat:400,600" rel="stylesheet">
         
         <link rel="stylesheet" href="css/animate.css">
@@ -35,18 +37,18 @@
             <nav>
                 <div class="nav-wrap">
                     <input type="checkbox" id="hamburger"/>
-                    <label onclick="myFunction()" for="hamburger" class="hamburger">
+                    <label for="hamburger" class="hamburger">
                         <div id="round">
                             <span></span>
                         </div>
                     </label>
                     <label for="hamburger" class="menu-bg">
-                        <a href="index-en.html">Accueil</a>
-                        <a href="cabinet-en.html">Cabinet</a>
-                        <a href="equipe-en.html">Équipe</a>
+                        <a href="index-en.html">Home</a>
+                        <a href="cabinet-en.html">The firm</a>
+                        <a href="equipe-en.html">Team</a>
                         <a href="services-en.html">Services</a>
                         <a href="#">Intranet</a>
-                        <a href="#">Espace Client</a>
+                        <a href="#">Customers Space</a>
                         <a href="contact-en.html">Contact</a>
                         <a href="blog-en.html">Blog</a>
                     </label>
@@ -149,43 +151,15 @@
                     
                     </div>
                     
-                    
-                    <div class="testimonial-container col-lg-6 col-md-6 col-sm-12 col-12">
-                        <div class="dk-container">
-                            <div class="cd-testimonials-wrapper cd-container">
-                                <ul class="cd-testimonials">
-                                    <li>
-                                        <div class="testimonial-content">
-                                            <img src="footage/teranga.png">
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="testimonial-content">
-                                            <img src="footage/lonase.png">
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="testimonial-content">
-                                            <img src="footage/wave.png">
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="testimonial-content">
-                                            <img src="footage/parc.png">
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="testimonial-content">
-                                            <img src="footage/ascent.png">
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- cd-testimonials -->
-                        </div>
+                    <div data-slick='{"slidesToShow": 3, "slidesToScroll": 1}' class="single-item col-lg-6 col-md-6 col-sm-12 col-12">
+                      <div><img id="ascent" src="footage/ascent.png"></div>
+                      <div><img src="footage/lonase.png"></div>
+                      <div><img src="footage/parc.png"></div>
+                      <div><img id="teranga" src="footage/teranga.png"></div>
+                      <div><img src="footage/wave.png"></div>
                     </div>
-
-                    </div>
+                
+                </div>
                     
                     
             </center>
@@ -236,33 +210,23 @@
         </section>
         
         <script src="js/wow.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        
+        
         <script>
-            new WOW().init();
-            jQuery(document).ready(function($) {
-                //create the slider
-                $('.cd-testimonials-wrapper').flexslider({
-                    selector: ".cd-testimonials > li",
-                    animation: "slide",
-                    controlNav: true,
-                    slideshow: true,
-                    smoothHeight: true,
-                    slideshowSpeed: 5000,
-                    start: function() {
-                        $('.cd-testimonials').children('li').css({
-                            'opacity': 1,
-                            'position': 'relative'
-                        });
-                    }
-                });
+            $(document).ready(function(){
+              $('.single-item').slick({
+                  autoplay: true,
+                  autoplaySpeed: 1500,
+                  swipeToScroll: true,
+                  dots: true,
+                  prevArrow: '<i id="slick-prev" class="fas fa-chevron-left"></i>',
+                  nextArrow: '<i id="slick-next" class="fas fa-chevron-right"></i>'
+                  
+              });
             });
-            function myFunction() {
-                $('html').toggleClass("overflow");
-                $('#blurry').toggleClass("bluraway");
-                $('#experience').toggleClass("bluraway");
-                $('.footer').toggleClass("bluraway");
-            }
-        
-        
+            new WOW().init();
         </script>
         
     </body>

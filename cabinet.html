@@ -35,7 +35,7 @@
             <nav>
                 <div class="nav-wrap">
                     <input type="checkbox" id="hamburger"/>
-                    <label onclick="myFunction()" for="hamburger" class="hamburger">
+                    <label for="hamburger" class="hamburger">
                         <div id="round">
                             <span></span>
                         </div>
@@ -86,11 +86,11 @@
                     <h1 class="slide-in-elliptic-top-fwd col-lg-4 col-md-4 col-sm-4 col-4">Notre cabinet</h1>
                 </div>
                 <h2 style="margin-top: -50px !important; margin-bottom: 20px; padding-left: 30px;">Nous sommes avant tout des professionnels</h2>
-                <p>Le cabinet a pour vocation d'assister les PME/PMI et TPE dans la gestion quotidienne des tâches administratives et financières et dans leurs stratégies de croissance.<br>
+                <p id="kabin">Le cabinet a pour vocation d'assister les PME/PMI et TPE dans la gestion quotidienne des tâches administratives et financières et dans leurs stratégies de croissance.<br>
 
                 Les prestations de conseils proposées par notre cabinet sont effectuées dans le respect des règles déontologiques qui régissent la profession des experts comptables.<br>
 
-                Toujours à la pointe de l'actualité comptable, le cabinet ASMA AUDIT & CONSEIL vous accompagne dans tous vos projets.<br><br>
+                Toujours à la pointe de l'actualité comptable, le cabinet ASMA AUDIT & CONSEIL vous accompagne dans tous vos projets.<br>
 
                 Le cabinet Asma Audit & Conseil est avant tout une équipe de comptables et d’auditeurs professionnels, dynamique, réactive, et proche de ses clients.</p>
             </div>
@@ -199,12 +199,6 @@
                     }
                 });
             });
-            function myFunction() {
-                $('html').toggleClass("overflow");
-                $('#blurry').toggleClass("bluraway");
-                $('#cabinet-sections').toggleClass("bluraway");
-                $('.footer').toggleClass("bluraway");
-            }
         
         
         </script>

@@ -865,16 +865,27 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 .single-item {
     background-color: white;
     padding-top: 3%;
+    height: 170px;
 }
 
 .single-item img {
-    width: 100px;
+    width: 120px;
     margin-bottom: 20px;
 }
 
-.single-item #teranga, .single-item #ascent {
-    padding-top: 20%;
+#ascent {
+    width: 200px;
+    margin-top: -50px;
+    border-right: 20px solid white;
 }
+
+#teranga {
+    border-left: 20px solid white;
+    border-right: 20px solid white;
+    width: 200px;
+    margin-top: -25px;
+}
+
 
 #slick-prev {
     color: white;
@@ -945,9 +956,9 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     color: white;
     font-family: 'Raleway', sans-serif;
     
-    margin: auto;
     width: 80%;
-    
+    margin-left: 100px;
+    margin-right: -100px;
 }
 
 #side-accueil h2 {
@@ -1061,9 +1072,6 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     background-color: white;
 }
 
-#services-para {
-    padding-left: 10vw !important;
-}
 
 #comptable h2 {
     font-family: 'Montserrat', sans-serif;
@@ -1396,11 +1404,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     text-decoration: none;
 }
 
-#contact-accueil #address {
-    padding: 15px;
-    background-color: rgba(255, 255, 255, 0.4);
-    width: 60%;
-}
+
 
 #contact-info {
     text-align: left;

@@ -864,26 +864,25 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 
 .single-item {
     background-color: white;
-    padding-top: 3%;
-    height: 170px;
+    height: 250px;
 }
 
 .single-item img {
     width: 120px;
-    margin-bottom: 20px;
+    margin-top: 10vh;
 }
 
 #ascent {
     width: 200px;
-    margin-top: -50px;
+    margin-top: 4vh;
     border-right: 20px solid white;
 }
 
 #teranga {
+    margin-top: 5vh;
     border-left: 20px solid white;
     border-right: 20px solid white;
     width: 200px;
-    margin-top: -25px;
 }
 
 
@@ -1403,8 +1402,6 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 .contact-row a {
     text-decoration: none;
 }
-
-
 
 #contact-info {
     text-align: left;

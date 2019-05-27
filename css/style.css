@@ -605,10 +605,10 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 .testimonial-content p {
-	padding: 8px 14px;
+	padding:0 14px;
     
     font-family: 'Montserrat', sans-serif !important;
-    font-size: 14px !important;
+    font-size: 16px !important;
     color: white;
 }
 
@@ -955,9 +955,13 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     color: white;
     font-family: 'Raleway', sans-serif;
     
-    width: 80%;
+    width: 36%;
     margin-left: 100px;
     margin-right: -100px;
+}
+
+.atouts-accueil p {
+    width: 80% !important;
 }
 
 #side-accueil h2 {
@@ -993,30 +997,30 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
     margin-bottom: 100px;
 }
 
-#cabinet-sections .in-menu h3 {
+#cabinet-sections .go-to h3 {
     transition: .5s;
-    background-color: #006699;
-    height: 200px;
     
     color: white;
-    padding-top: 22%;
 }
 
-#cabinet-sections .in-menu h3:hover {
+#cabinet-sections .go-to {
+    transition: .5s;
+    background-color: #006699;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+#cabinet-sections .go-to:hover {
     transition: .5s;
     background-color: #0088cc;
 }
 
-#demarche-p {
-    width: 60% !important;
-}
 
 
 /* Equipe */
 
 #portrait {
     width: 300px;
-    
 }
 
 .equipe-more {
@@ -1107,8 +1111,8 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #revision ul {
-    text-align: right;
-    padding-right: 20px;
+    text-align: left;
+    padding-left: 20px;
 }
 
 #comptable-details h4 {
@@ -1132,7 +1136,7 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #tenue ul {
-    text-align: center;
+    text-align: left;
     width: 95%;
     margin-left: -45px;
 }
@@ -1172,11 +1176,11 @@ nav .nav-wrap #hamburger:checked ~ .menu-bg a:hover {
 }
 
 #aide .right-text {
-    text-align: right;
+    text-align: left;
 }
 
 #aide .right-text p {
-    float: right;
+    float: left;
 }
 
 .aide-details h3 {
